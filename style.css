@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.micro-img{
+    width: 130px;
+}
+.container-sm{
+    max-width: 1446px !important;
+}
+
+.nav-items{
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    margin-bottom: 0px;
+    flex: 1;
+}
+
+.right-nav-items{
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    margin-bottom: 0px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+.mid-links-items{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 2em;
+    text-align: center;
+    flex-wrap: wrap;
+    text-decoration: underline;
+    color: #0067b8;
+}
+
+.div3{
+    padding: 100px;
+}
+
+.card {
+    border: none;
+}
+
+.text-container{
+    position: absolute;
+    left: 22%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+    color: rgb(117, 117, 117); 
+    
+}
+
+.blue-btn{
+    padding: 1em;
+    margin-top: 5%;
+    background-color: #0067b8;
+    color: white;
+}
+
+.btn-container{
+    margin-top: 3em;
+}
+
+.blue-img{
+    margin: 100px 0px 100px 0px;
+}
+
+.inside-container{
+    position: absolute;
+    top: 30%;
+    left: 11%;
+    transform: translate(-50px, -50px);
+    border: 1px solid white;
+    padding: 3vw;
+    background: white;
+}
+
+.social-media{
+    margin: 50px 0px 50px 10px;
+}
+
+.main-main-footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f2f2f2;
+    padding: 50px 0px;
+        flex-wrap: wrap;
+}
+
+
+.first-footer-lists{
+    list-style: none;
+}
+
+.second-footer-lists{
+    list-style: none;
+}
+
+.third-footer-lists{
+    list-style: none;
+}
+
+.fourth-footer-lists{
+    list-style: none;
+}
+
+.fifth-footer-lists{
+    list-style: none;
+}
+
+.sixth-footer-lists{
+    list-style: none;
+}
+
+li h4{
+    font-size: 16px;
+}
+
+a{
+    font-size: 11px;
+    color: #787878 !important;
+}
+
+ul{
+    line-height: 40px;
+}
+
+.footer-last{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    gap: 37em;
+}
+
+
+.right-lists{
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    align-items: center;
+    font-size: 11px;
+}
+
+.left-text{
+    font-size: 11px;
+}
+
+.left-footer{
+    display: flex;
+    gap: 3em;
+}
